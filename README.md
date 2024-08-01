@@ -1,3 +1,24 @@
+# Readme
+There is no install guide on orinal repository so i add it.
+## Install on Linux
+1. Clone the original repository
+```bash
+git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git
+```
+2. Create env and start
+```bash
+cd stable-diffusion-webui-forge
+python -m venv .venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+. ./webui.sh --xformers --api
+```
++) ControlNet models directory is different with AUTOMATIC1111/stable-diffusion-webui. <br>
+AUTOMATIC1111's controlnet models directory is `extensions/sd_forge_controlnet/models` <br>
+lllyasviel's controlnet models directory is `models/CotrolNet`
+
+
+# Original Readme
 # Stable Diffusion WebUI Forge
 
 Stable Diffusion WebUI Forge is a platform on top of [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (based on [Gradio](https://www.gradio.app/)) to make development easier, optimize resource management, speed up inference, and study experimental features.
