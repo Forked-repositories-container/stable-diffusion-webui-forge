@@ -17,6 +17,8 @@ pip install -r requirements.txt
 AUTOMATIC1111's controlnet models directory is `extensions/sd_forge_controlnet/models` <br>
 lllyasviel's controlnet models directory is `models/CotrolNet`
 
+reference link: https://github.com/lllyasviel/stable-diffusion-webui-forge/issues/485, https://github.com/lllyasviel/stable-diffusion-webui-forge/issues/138
+
 
 # Original Readme
 # Stable Diffusion WebUI Forge
